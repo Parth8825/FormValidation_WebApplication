@@ -1,0 +1,78 @@
+/* the reset selector */
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* body css */
+body {
+  background-color: bisque;
+}
+
+/* Header css */
+header {
+  display: block;
+  padding: 10px 0;
+  background-color: rgb(25, 159, 212);
+}
+h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Navigation bar css */
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: gray;
+  font-weight: 500;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 1px 15px 1px 15px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+}
+nav ul li b {
+  color: whitesmoke;
+  font-size: 140%;
+}
+
+/* button css */
+button {
+  position: absolute;
+  margin-top: 100px;
+  left: 15%;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 12px;
+  width: 75%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover {
+  background-color: darkgray;
+}
+
+button:active {
+  background-color: darkgray;
+  transform: translateY(4px);
+}
+
+#einfo{
+  text-align: center;
+}
