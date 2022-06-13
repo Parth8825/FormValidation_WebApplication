@@ -16,7 +16,7 @@ function saveData(){
     var model = localStorage.getItem('modelObject');
     var year = localStorage.getItem('yearObject'); 
 
-    var userData = {
+    const userData = {
         name: name,
         address: address,
         city: city,
@@ -27,9 +27,10 @@ function saveData(){
         make: make,
         model: model,
         year: year
-    };
+    }
 
     localStorage.setItem('userDataObject', JSON.stringify(userData));
+
 
     // generating the link
     var link = "http://www.jdpower.com/cars/";
